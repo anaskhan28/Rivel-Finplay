@@ -88,31 +88,6 @@ body {
     margin-bottom: 2rem;
   }
   
-  .btn {
-    color: white;
-    background-color: #1762A7;
-    padding: .75rem 1.5rem;
-    border-radius: .5rem;
-    text-decoration: none;
-    font-size: .9rem;
-    outline: none;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .btn:hover {
-    background-color: #2180d8;
-  }
-  
-  .btn:focus {
-    background-color: #2796ff;
-  }
-  @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-  
-  *, *::before, *::after {
-    box-sizing: border-box;
-  }
-  
   body {
     padding: 0;
     margin: 0;
@@ -142,8 +117,8 @@ body {
   
   .main-nav ul, .footer-nav ul {
     display: flex;
-    margin: 0;
-    padding: 0;
+    margin: 2rem;
+    padding: 3rem;
     list-style: none;
   }
   
@@ -151,6 +126,7 @@ body {
     color: inherit;
     text-decoration: none;
     padding: 1rem;
+    
   }
   
   .main-nav a:hover, .footer-nav a:hover  {
@@ -171,6 +147,10 @@ body {
     height: 70px;
     background-color: #202027;
     font-weight: bold;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
   }
   
- 
